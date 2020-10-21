@@ -1,0 +1,60 @@
+package com.demo.filter;
+
+import java.io.IOException;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import com.demo.model.User;
+
+@WebFilter(filterName = "PermistionFilter",urlPatterns = {"/admin","/editUser","/addUser"})
+public class PermistionFilter implements Filter{
+
+	@Override
+	public void init(FilterConfig filterConfig) throws ServletException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		// get role
+		/*   ++Check user login
+		     		nếu chưa login  => return login
+		     		login rồi => lưu thông tin 
+		 */		
+		// check role
+		
+		// if role  = admin => chan.dofilter
+		
+		// if role = other  forward to accessdinied file page
+		HttpServletRequest http =  (HttpServletRequest) request;
+		User user = (User)http.getSession().getAttribute("userBean");
+		int role  =  (int) http.getSession().getAttribute("role");
+		
+		if(role == 1) {
+			chain.doFilter(request, response);
+		}else {
+			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/accessDenied.jsp");
+			rd.forward(request, response);
+		}
+		
+	}
+
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.demo.dao.UserDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.demo.model.User"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.fruits.dao.impl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.fruits.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.fruits.utils.ConnectionUtils"/>
+<fullyQualifiedTypeName name="com.fruits.service.UserService"/>
+<fullyQualifiedTypeName name="com.fruits.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.fruits.model.User"/>
+</qualifiedTypeNameHistroy>

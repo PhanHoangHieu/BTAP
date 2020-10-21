@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/home/hieupeo/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar"/>
+  <path value="/home/hieupeo/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar"/>
+  <path value="/home/hieupeo/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
+  <path value="/home/hieupeo/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0-rt.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0-rt.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fn.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/permittedTaglibs.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/scriptfree.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0-rt.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0-rt.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0.tld" project="LoginMVCDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x.tld" project="LoginMVCDemo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/hieupeo/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3/javax.servlet.jsp-api-2.3.3.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="32" name="%0" offset="529" path="%1"/>
+   <linked-el length="27" name="%0" offset="673" path="%1"/>
+   <linked-el length="35" name="%2" offset="485" path="%3"/>
+   <linked-el length="24" name="%4" offset="1124" path="%5"/>
+   <linked-el length="12" name="%4" offset="1087" path="%6"/>
+   <linked-el length="10" name="%4" offset="843" path="%5"/>
+   <linked-el length="26" name="%4" offset="1179" path="%5"/>
+   <linked-el length="32" name="%7" offset="529" path="%1"/>
+   <linked-el length="27" name="%7" offset="673" path="%1"/>
+   <linked-el length="35" name="%8" offset="485" path="%3"/>
+   <linked-el length="16" name="%9" offset="1003" path="%5"/>
+   <linked-el length="19" name="%9" offset="643" path="%6"/>
+   <linked-el length="16" name="%10" offset="1033" path="%5"/>
+   <linked-el length="19" name="%10" offset="771" path="%6"/>
+   <linked-el length="32" name="%11" offset="529" path="%1"/>
+   <linked-el length="27" name="%11" offset="673" path="%1"/>
+   <linked-el length="11" name="%12" offset="804" path="%5"/>
+   <linked-el length="12" name="%13" offset="1090" path="%5"/>
+   <linked-el length="15" name="%14" offset="894" path="%6"/>
+   <linked-el length="13" name="%14" offset="1063" path="%5"/>
+   <linked-el length="32" name="%15" offset="529" path="%1"/>
+   <linked-el length="27" name="%15" offset="673" path="%1"/>
+   <linked-el length="32" name="%16" offset="529" path="%1"/>
+   <linked-el length="27" name="%16" offset="673" path="%1"/>
+   <linked-el length="35" name="%17" offset="485" path="%3"/>
+   <linked-el length="12" name="%18" offset="1090" path="%5"/>
+   <linked-el length="15" name="%18" offset="894" path="%6"/>
+   <linked-el length="24" name="%18" offset="1124" path="%5"/>
+   <linked-el length="16" name="%18" offset="1033" path="%5"/>
+   <linked-el length="13" name="%18" offset="1063" path="%5"/>
+   <linked-el length="12" name="%18" offset="1087" path="%6"/>
+   <linked-el length="10" name="%18" offset="843" path="%5"/>
+   <linked-el length="16" name="%18" offset="1003" path="%5"/>
+   <linked-el length="26" name="%18" offset="1179" path="%5"/>
+   <linked-el length="19" name="%18" offset="643" path="%6"/>
+   <linked-el length="19" name="%18" offset="771" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="org.eclipse.m2e.log.dir" value="%0"/>
+  <alias path="project.build.directory" value="%2"/>
+  <alias path="user.id" value="%4"/>
+  <alias path="org" value="%7"/>
+  <alias path="project" value="%8"/>
+  <alias path="user.username" value="%9"/>
+  <alias path="user.password" value="%10"/>
+  <alias path="org.eclipse.m2e" value="%11"/>
+  <alias path="/LoginMVCDemo/pom.xml" value="%3"/>
+  <alias path="users" value="%12"/>
+  <alias path="user.role" value="%13"/>
+  <alias
+   path="/LoginMVCDemo/src/main/webapp/WEB-INF/view/admin/editUser.jsp" value="%6"/>
+  <alias path="user.email" value="%14"/>
+  <alias
+   path="/LoginMVCDemo/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml" value="%1"/>
+  <alias path="org.eclipse" value="%15"/>
+  <alias path="org.eclipse.m2e.log" value="%16"/>
+  <alias path="project.build" value="%17"/>
+  <alias
+   path="/LoginMVCDemo/src/main/webapp/WEB-INF/view/admin/admin.jsp" value="%5"/>
+  <alias path="user" value="%18"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

@@ -1,0 +1,5 @@
+package com.fruits.model;
+
+public class User {
+
+}
